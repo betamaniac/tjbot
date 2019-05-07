@@ -1,43 +1,43 @@
 # Conversation
-> Chat with TJBot!
+> Поговори с TJBot!
 
-This recipe uses the [Watson Assistant](https://www.ibm.com/watson/services/conversation/), [Watson Speech to Text](https://www.ibm.com/watson/services/speech-to-text/), and [Watson Text to Speech](https://www.ibm.com/watson/services/text-to-speech/) services to turn TJ into a chatting robot.
+Этот рецепт использует [Watson Assistant](https://www.ibm.com/watson/services/conversation/), [Watson Speech to Text](https://www.ibm.com/watson/services/speech-to-text/), and [Watson Text to Speech](https://www.ibm.com/watson/services/text-to-speech/) сервисы для того чтобы превратить TJ в говорящего робота.
 
 ## Hardware
-This recipe requires a TJBot with a microphone and a speaker.
+Требуется TJBot с микрофоном и колонками.
 
 ## Build and Run
-First, make sure you have configured your Raspberry Pi for TJBot by following the [bootstrap instructions](https://github.com/ibmtjbot/tjbot/tree/master/bootstrap).
+Во-первых, убедитесь, что вы настроили Raspberry Pi для TJBot, выполнив [bootstrap instructions](https://github.com/ibmtjbot/tjbot/tree/master/bootstrap).
 
-Next, go to the `recipes/conversation` folder and install the dependencies.
+Далее перейдите к папке `recipes/conversation` и установите зависимости.
 
     $ cd tjbot/recipes/conversation
     $ npm install
 
-Create instances of the [Watson Assistant](https://www.ibm.com/watson/services/conversation/), [Watson Speech to Text](https://www.ibm.com/watson/services/speech-to-text/), and [Watson Text to Speech](https://www.ibm.com/watson/services/text-to-speech/) services and note the authentication credentials.
+Создайте экземляры сервисов [Watson Assistant](https://www.ibm.com/watson/services/conversation/), [Watson Speech to Text](https://www.ibm.com/watson/services/speech-to-text/), и [Watson Text to Speech](https://www.ibm.com/watson/services/text-to-speech/) и запишите учетные данные аутентификации.
 
-Import the `workspace-sample.json` file into the Watson Assistant service and note the workspace ID.
+Импортируйте файл `workspace-sample.json` в сервис Watson Assistant и запишите workspace ID.
 
-Make a copy the default configuration file and update it with the Watson service credentials and the conversation workspace ID.
+Сделайте копию файла конфигурации по умолчанию и обновите его, используя свои учетные записи от сервиса Watson и workspace ID.
 
     $ cp config.default.js config.js
     $ nano config.js
     <enter your credentials and the conversation workspace ID in the specified places>
 
-Run!
+Запустите!
 
     sudo node conversation.js
 
-> Note the `sudo` command. Root user access is required to run TJBot recipes.
+> Используйте `sudo` команду. Требуются права доступа Root.
 
-Watson conversation uses intents to label the purpose of a sentence. For example when you ask TJBot "Please introduce yourself", the intent is to make an introduction. You can add your own new intents, but for now, we have started you off with a few intents:
+Watson conversation использует намерения, чтобы обозначить цель предложения. Например, когда вы спрашиваете TJBot «Пожалуйста, представьтесь», намерение(intent) - представление. Вы можете добавить свои собственные новые намерения, но сейчас мы создали для вас несколько намерений:
 
-- Introduction. You can say phrases such as "Watson, please introduce yourself", "Watson, who are you", and "Watson, can you introduce yourself"
-- Joke. You can ask "Watson, please tell me a joke" or "Watson, I would like to hear a joke".
+- Представление(Introduction). Вы можете сказать фразу такую как "Watson, please introduce yourself", "Watson, who are you", and "Watson, can you introduce yourself"
+- Шутка(Joke). Вы можете спросить "Watson, please tell me a joke" or "Watson, I would like to hear a joke".
 
-For a complete list, check the content of workspace-sample.json
+Для получения полного списка, посмотрите содержание  workspace-sample.json
 
-An **attention word** is used so TJBot knows you are talking to him. The default attention word is 'Watson', but you can change it in config.js as follows. Update the configuration file to change the robot name in tjConfig section:
+ **Приветственное слово** используется для того, чтобы TJBot знал что вы говорите с ним. По умолчанию приветственное слово 'Watson', но вы его может поменять в файле config.js. Обновите файл конфигурации, чтобы изменить имя робота в разделе tjConfig:
 
     // set up TJBot's configuration
     
@@ -46,7 +46,7 @@ An **attention word** is used so TJBot knows you are talking to him. The default
         robot: {   name: 'tee jay bot'  }
     };
 
-You can change the 'name' to whatever you would like to call your TJBot.
+Вы можете изменить 'имя' на любое, как вы хотели бы назвать своего TJBot.
 
 # Watson Services
 - [Watson Assistant](https://www.ibm.com/watson/services/conversation/)
