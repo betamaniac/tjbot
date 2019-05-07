@@ -26,42 +26,41 @@ There are a number of components you can add to TJBot to bring him to life. Not 
 - [Servo Motor](https://www.amazon.com/RioRand-micro-Helicopter-Airplane-Controls/dp/B00JJZXRR0/). Note that the red (middle) wire is 5v, the brown wire is ground, and the orange wire is data.
 - [Raspberry Pi Camera](https://www.amazon.com/dp/B01ER2SKFS/). Either the 5MP or 8MP camera will work.
 
-## Assembly
+## Сборка
 Once you have obtained your TJBot, please refer to [the assembly instructions](http://www.instructables.com/id/Build-TJ-Bot-Out-of-Cardboard/) to put it all together.
 
-For reference, here is the wiring diagram to hook up the LED and servo to your Raspberry Pi.
+Для справки, вот схема подключения светодиодов и сервомотора к вашему Raspberry Pi.
 
 ![](images/wiring.png)
 
-> 💡 Be careful when connecting the LED! If it is connected the wrong way, you may end up burning it out. The LED has a flat notch on one side; use this to orient the LED and figure out which pin is which.
+> 💡 Будьте осторожны при подключении светодиода! Если он подключен неправильно, то может сгореть. Светодиод имеет плоскую выемку на одной стороне(на картинке она справа); используйте это, чтобы сориентировать светодиод и выяснить, где какой вывод.
 
-> For the servo, note that the red (middle) wire is 5v, the brown wire is ground, and the orange wire is data.
+> Для сервопривода обратите внимание, что красный (средний) провод имеет напряжение 5 В, коричневый провод заземлен, а оранжевый - данные.
 
-# Bring TJBot to Life
-First, make sure you have configured your Raspberry Pi for TJBot.
-Just run that command to download and install TJBot:
+# Как оживить TJBot
+Сначала убедитесь, что вы правильно настроили Raspberry Pi для TJBot.
+Просто запустите эту команду, чтобы загрузить и установить TJBot:
 
 ```
 curl -sL http://ibm.biz/tjbot-bootstrap | sudo sh -
 ```
 
-[Recipes](recipes) are step-by-step instructions to bring your TJBot to life with [Watson](https://www.ibm.com/watson/products-services/).
+[Recipes](recipes) это пошаговые инструкции, чтобы оживить ваш TJBot с помощью [Watson](https://www.ibm.com/watson/products-services/).
 
-We have provided three initial [recipes](recipes) for you:
+Мы подготовили 3 рецепта для вас [recipes](recipes) для вас:
 
-- Use Your Voice to Control a Light with Watson [[instructions](http://www.instructables.com/id/Use-Your-Voice-to-Control-a-Light-With-Watson/)] [[github](https://github.com/ibmtjbot/tjbot/tree/master/recipes/speech_to_text)]
-- Make Your Robot Respond to Emotions Using Watson [[instructions](http://www.instructables.com/id/Make-Your-Robot-Respond-to-Emotions-Using-Watson/)] [[github](https://github.com/ibmtjbot/tjbot/tree/master/recipes/sentiment_analysis)]
-- Build a Talking Robot with Watson [[instructions](http://www.instructables.com/id/Build-a-Talking-Robot-With-Watson-and-Raspberry-Pi/)] [[github](https://github.com/ibmtjbot/tjbot/tree/master/recipes/conversation)]
-
-After checking out our sample recipes, we encourage you to take a look at [featured recipes](featured) created by members of our community.
+- Используйте свой голос, чтобы управлять светом с помощью Watson[[instructions](http://www.instructables.com/id/Use-Your-Voice-to-Control-a-Light-With-Watson/)] [[github](https://github.com/ibmtjbot/tjbot/tree/master/recipes/speech_to_text)]
+- Сделайте так, чтобы ваш робот реагировал на эмоции с помощью Watson [[instructions](http://www.instructables.com/id/Make-Your-Robot-Respond-to-Emotions-Using-Watson/)] [[github](https://github.com/ibmtjbot/tjbot/tree/master/recipes/sentiment_analysis)]
+- Создайте говорящего робота с Watson [[instructions](http://www.instructables.com/id/Build-a-Talking-Robot-With-Watson-and-Raspberry-Pi/)] [[github](https://github.com/ibmtjbot/tjbot/tree/master/recipes/conversation)]
+После ознакомления с нашими примерами рецептов, мы рекомендуем вам взглянуть на [популярные рецепты] (featured) созданный членами нашего сообщества.
 
 # Contribute to TJBot
-TJBot is an open source project designed to make it fun and easy to interact with [Watson](https://www.ibm.com/watson/products-services/). We’d love to see what you can make with him!
+TJBot - это проект с открытым исходным кодом, разработанный для того, чтобы с ним было весело и легко взаимодействовать с помощью [Watson](https://www.ibm.com/watson/products-services/). Мы будем рады видеть, что вы можете сделать с ним!
 
-If you would like your own recipe included in our [featured recipe](featured) list, please [open an issue](../../issues) with a link to your repository and a demo video.
+Если вы хотите, чтобы ваш собственный рецепт был включен в наш список [featured recipe](featured), пожалуйста откройте issue [open an issue](../../issues) с ссылкой на ваш репозиторий и демо видео.
 
 # About TJBot
-[TJBot](http://ibm.biz/mytjbot) was affectionately named after Thomas J. Watson, the first Chairman and CEO of IBM. TJBot was created by [Maryam Ashoori](https://github.com/maryamashoori) at IBM Research as an experiment to find the best practices in the design and implementation of cognitive objects. He was born on November 9, 2016 via [this blog post](https://www.ibm.com/blogs/research/2016/11/calling-makers-meet-tj-bot/).
+[TJBot](http://ibm.biz/mytjbot) был назван в честь Thomas J. Watson, первого председателя и генерального директора IBM. TJBot был создан [Maryam Ashoori](https://github.com/maryamashoori) в подразделении IBM Research в качестве эксперимента, чтобы найти лучшие практики в разработке и реализации когнитивных объектов. Он родился 9 ноября 2016 года через [этот блог post](https://www.ibm.com/blogs/research/2016/11/calling-makers-meet-tj-bot/).
 
 # License
 This project uses the [Apache License Version 2.0](LICENSE) software license.
