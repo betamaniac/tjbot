@@ -1,38 +1,29 @@
 
-# Recipes
-Recipes are step by step instructions to help you connect your TJBot to [Watson](https://www.ibm.com/watson/products-services/).
+# Рецепты
+Рецепты представляют собой пошаговые инструкции, которые помогут вам подключить ваш TJBot к сервису [Watson](https://www.ibm.com/watson/products-services/).
 
-The recipes are designed to be run on a Raspberry Pi. You can either run one of our sample recipes below, or create your own recipe that brings your ideas to life using [Watson](https://www.ibm.com/watson/products-services/)!
+Рецепты предназначены для запуска на Raspberry Pi. Вы можете запустить один из наших примеров ниже или создать свой собственный рецепт, который воплотит ваши идеи в жизнь, используя [Watson](https://www.ibm.com/watson/products-services/)!
 
-### [Speech to Text](speech_to_text)
-> Use your voice to control TJBot's LED with Watson [[instructables](http://www.instructables.com/id/Use-Your-Voice-to-Control-a-Light-With-Watson/)]
+### [Разговор](conversation)
+> Построй говорящего робота с Watson [[instructables](http://www.instructables.com/id/Build-a-Talking-Robot-With-Watson-and-Raspberry-Pi/)]
 
-This receipe lets you control the [8mm NeoPixel RGB led](https://www.adafruit.com/products/1734) using voice commands. It uses the [Watson Speech to Text](https://www.ibm.com/watson/services/speech-to-text/) API.
-
-[![link to a full video for use voice to control LED](https://img.youtube.com/vi/Wvnh7ie3D6o/0.jpg)](https://www.youtube.com/watch?v=Wvnh7ie3D6o)
-
-### [Sentiment Analysis](sentiment_analysis)
-> Make TJBot respond to emotions with Watson [[instructables](http://www.instructables.com/id/Make-Your-Robot-Respond-to-Emotions-Using-Watson/)]
-
-This recipe shines TJBot's [8mm NeoPixel RGB LED](https://www.adafruit.com/products/1734) different colors based on the emotions present in Twitter for a given keyword. It uses [Watson Tone Analyzer](https://www.ibm.com/watson/services/tone-analyzer/) and the [Twitter API](https://dev.twitter.com/overview/api).
-
-<img src="../images/sentiment.png" width="50%">
-
-### [Conversation](conversation)
-> Build a talking robot with Watson [[instructables](http://www.instructables.com/id/Build-a-Talking-Robot-With-Watson-and-Raspberry-Pi/)]
-
-This recipe demonstrates how to use the [Watson Speech to Text](https://www.ibm.com/watson/services/speech-to-text/), [Watson Text to Speech](https://www.ibm.com/watson/services/text-to-speech/), and [Watson Assistant](https://www.ibm.com/watson/services/conversation/) services to build a talking chatbot.
+Этот рецепт показывает как использовать [Watson Speech to Text](https://www.ibm.com/watson/services/speech-to-text/), [Watson Text to Speech](https://www.ibm.com/watson/services/text-to-speech/), и [Watson Assistant](https://www.ibm.com/watson/services/conversation/) сервисы для создания говорящего робота.
 
 <img src="../images/conversation.png" width="50%">
 
-## Featured Recipes
-Check out the [featured TJBot recipes](../featured) created by members of our community.
+### [Речь в текст](speech_to_text)
+> Используйте свой голос для управления светодиодом TJBot с Watson [[instructables](http://www.instructables.com/id/Use-Your-Voice-to-Control-a-Light-With-Watson/)]
 
-## Contributing Your Own Recipes
-TJBot is an open source project designed to make it fun and easy to interact with [Watson](https://www.ibm.com/watson/products-services/).
+Этот рецепт позволит вам управлять [8mm NeoPixel RGB led](https://www.adafruit.com/products/1734) с использованием голосовых команд. Используется API [Watson Speech to Text](https://www.ibm.com/watson/services/speech-to-text/).
 
-If you would like your own recipe included in our [featured recipe](../featured) list, please [open an issue](../../../issues) and provide a link to your repository and a demo video.
+[![link to a full video for use voice to control LED](https://img.youtube.com/vi/Wvnh7ie3D6o/0.jpg)](https://www.youtube.com/watch?v=Wvnh7ie3D6o)
 
-For guidelines on contributing to the TJBot project, please refer to the [contribution guide](../CONTRIBUTING.md).
+### [Анализ настроений](sentiment_analysis)
+> TJBot реагирует на эмоции с помощью сервиса Watson [[instructables](http://www.instructables.com/id/Make-Your-Robot-Respond-to-Emotions-Using-Watson/)]
 
-We can't wait to see what you make with TJBot!
+Этот рецепт зажигает различными цветами [8mm NeoPixel RGB LED](https://www.adafruit.com/products/1734) на основе эмоции из твитта. Используется  API [Watson Tone Analyzer](https://www.ibm.com/watson/services/tone-analyzer/) и [Twitter API](https://dev.twitter.com/overview/api).
+
+<img src="../images/sentiment.png" width="50%">
+
+## Рекомендуемые рецепты
+Посмотрите [рецепты TJBot](https://github.com/ibmtjbot/tjbot/tree/master/featured) созданные нашим комьюнити.
