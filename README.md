@@ -1,33 +1,33 @@
 # IBM TJBot
 <img src="images/tjbot.jpg" width="85%">
 
-[IBM Watson Maker Kits](http://ibm.biz/mytjbot) are a collection of DIY open source templates to build things with [Watson](https://www.ibm.com/watson/products-services/) in a fun and easy way. [IBM TJBot](http://ibm.biz/mytjbot) is the first maker kit in the collection. You can 3D print or laser cut the robot body, then use one of our [recipes](recipes) to bring him to life!
+[IBM Watson Maker Kits](http://ibm.biz/mytjbot) - это коллекция из DIY open source шаблонов для создания различных устройств с помощью [Watson](https://www.ibm.com/watson/products-services/) в веселой и простой форме. [IBM TJBot](http://ibm.biz/mytjbot) это первый комплект в этой коллекции. Вы можете сделать 3D печать тела робота, а затем использовать один из наших рецептов[рецептов](recipes) чтобы оживить его!
 
-In addition, you can unleash your own creativity and create new recipes that bring TJBot to life using any of the available [Watson services](https://www.ibm.com/watson/products-services/)!
+Кроме того, вы можете раскрыть свой творческий потенциал и создать новые рецепты, которые оживят TJBot, используя любой из доступных сервисов [Watson](https://www.ibm.com/watson/products-services/)!
 
-**TJBot only works with a Raspberry Pi.**
+**TJBot работает только на Raspberry Pi.**
 
 # Build TJBot
-You can make your own TJBot in a number of ways.
+Вы можете создать свой собственный TJBot несколькими способами.
 
-- **3d Print or Laser Cut**. If you have access to a 3D printer or laser cutter, you can print/cut TJBot yourself. Begin by downloading the [design files](https://ibmtjbot.github.io/#gettj) and firing up your printer/cutter.
-- **TJBot Full Kit**. You can order a full TJBot kit with the laser cut cardboard and all the electronics from [Sparkfun](https://www.sparkfun.com/products/14123), [Adafruit](https://www.adafruit.com/product/3462), or [Robotkingdom](http://shop.robotkingdom.com.tw/raspberry-pi/tjbot01.html).
-- **TJBot Cardboard Kit**. You can purchase the TJBot laser cut cardboard from [Texas Laser Creations](http://texlaser.com).
+- **3d печать или лазерная резка**. Если у вас есть доступ к принтеру 3D или лазерной резке, то вы можете напечатать TJBot самостоятельно. Начните с скачивания дизайн файлов [design files](https://ibmtjbot.github.io/#gettj) и запускайте ваш принтер/резак.
+- **TJBot Full Kit**. Вы можете заказать полный комплект TJBot с картоном для лазерной резки и всей электроникой от [Sparkfun](https://www.sparkfun.com/products/14123), [Adafruit](https://www.adafruit.com/product/3462), или [Robotkingdom](http://shop.robotkingdom.com.tw/raspberry-pi/tjbot01.html).
+- **TJBot Cardboard Kit**. Вы можете купить нарезанный лазером картон робота TJBot в [Texas Laser Creations](http://texlaser.com).
 
-## Electronics
-There are a number of components you can add to TJBot to bring him to life. Not all of these are required for all recipes.
+## Электроника
+Есть ряд компонентов, которые вы можете добавить в TJBot, чтобы его оживить. Не все из них требуются для всех рецептов.
 
-- [Raspberry Pi 3 + SD card preloaded with NOOBS](http://www.mcmelectronics.com/product/RASPBERRY-PI-RPI-MODB-16GB-NOOBS-/83-17304). **This is a required component to make TJBot work!** 🤖
-- [NeoPixel RGB LED (8mm)](https://www.adafruit.com/product/1734). Note that if you are using other kinds of LEDs, you may need to add a resistor; this LED doesn’t require one.
-- [Female-to-female jumper wires](https://www.amazon.com/dp/B00KOL5BCC/). TJBot will only need 3 of these wires, so you’ll have extra.
-- [Female-to-male jumper wires](https://www.amazon.com/dp/B00PBZMN7C/). TJBot will only need 3 of these wires, so you’ll have extra.
-- [USB Microphone](https://www.amazon.com/gp/product/B00IR8R7WQ/). Other brands of USB microphones should also work.
-- Mini Bluetooth Speaker. Any small speaker with either a 3.5mm audio jack or Bluetooth will work. Note that if you are using the 3.5mm audio jack, you may wish to add a [USB Audio Adapter](https://www.adafruit.com/product/1475) to avoid audio interference with the LED.
-- [Servo Motor](https://www.amazon.com/RioRand-micro-Helicopter-Airplane-Controls/dp/B00JJZXRR0/). Note that the red (middle) wire is 5v, the brown wire is ground, and the orange wire is data.
-- [Raspberry Pi Camera](https://www.amazon.com/dp/B01ER2SKFS/). Either the 5MP or 8MP camera will work.
+- [Raspberry Pi 3 + SD card preloaded with NOOBS](http://www.mcmelectronics.com/product/RASPBERRY-PI-RPI-MODB-16GB-NOOBS-/83-17304). **Это обязательный компонент для работы TJBot!** 🤖
+- [NeoPixel RGB LED (8mm)](https://www.adafruit.com/product/1734). Обратите внимание, что если вы используете другие виды светодиодов, вам может потребоваться добавить резистор; в этот светодиод резистор не требуется.
+- [Female-to-female jumper wires](https://www.amazon.com/dp/B00KOL5BCC/). TJBot понадобится только 3 из этих проводов.
+- [Female-to-male jumper wires](https://www.amazon.com/dp/B00PBZMN7C/). TJBot понадобится только 3 из этих проводов.
+- [USB Microphone](https://www.amazon.com/gp/product/B00IR8R7WQ/). Другие марки USB микрофонов также должны работать.
+- Mini Bluetooth Speaker. Подойдет любой маленький динамик с 3,5-мм аудиоразъемом или Bluetooth. Обратите внимание, что если вы используете 3,5-мм аудиоразъем, то возможно вам надо будет добавить [USB Audio Adapter](https://www.adafruit.com/product/1475) чтобы избежать звуковых помех со светодиодом LED.
+- [Servo Motor](https://www.amazon.com/RioRand-micro-Helicopter-Airplane-Controls/dp/B00JJZXRR0/). Обратите внимание, что красный (средний) провод имеет напряжение 5 В, коричневый провод заземлен, а оранжевый - данные.
+- [Raspberry Pi Camera](https://www.amazon.com/dp/B01ER2SKFS/). Будет работать 5-мегапиксельная или 8-мегапиксельная камера.
 
 ## Сборка
-Once you have obtained your TJBot, please refer to [the assembly instructions](http://www.instructables.com/id/Build-TJ-Bot-Out-of-Cardboard/) to put it all together.
+Как только вы получили свой TJBot, пожалуйста следуйте видео инструкциям по сборке тела робота [the assembly instructions](http://www.instructables.com/id/Build-TJ-Bot-Out-of-Cardboard/).
 
 Для справки, вот схема подключения светодиодов и сервомотора к вашему Raspberry Pi.
 
@@ -45,22 +45,25 @@ Once you have obtained your TJBot, please refer to [the assembly instructions](h
 curl -sL http://ibm.biz/tjbot-bootstrap | sudo sh -
 ```
 
-[Recipes](recipes) это пошаговые инструкции, чтобы оживить ваш TJBot с помощью [Watson](https://www.ibm.com/watson/products-services/).
+[Рецепты](recipes) это пошаговые инструкции, чтобы оживить ваш TJBot с помощью [Watson](https://www.ibm.com/watson/products-services/).
 
-Мы подготовили 3 рецепта для вас [recipes](recipes) для вас:
+Мы подготовили для вас 3 [рецепта](recipes):
+
+- Создайте говорящего робота с Watson [[instructions](http://www.instructables.com/id/Build-a-Talking-Robot-With-Watson-and-Raspberry-Pi/)] [[github](https://github.com/betamaniac/tjbot/tree/master/recipes/conversation)]
 
 - Используйте свой голос, чтобы управлять светом с помощью Watson[[instructions](http://www.instructables.com/id/Use-Your-Voice-to-Control-a-Light-With-Watson/)] [[github](https://github.com/ibmtjbot/tjbot/tree/master/recipes/speech_to_text)]
+(На английском языке)
 - Сделайте так, чтобы ваш робот реагировал на эмоции с помощью Watson [[instructions](http://www.instructables.com/id/Make-Your-Robot-Respond-to-Emotions-Using-Watson/)] [[github](https://github.com/ibmtjbot/tjbot/tree/master/recipes/sentiment_analysis)]
-- Создайте говорящего робота с Watson [[instructions](http://www.instructables.com/id/Build-a-Talking-Robot-With-Watson-and-Raspberry-Pi/)] [[github](https://github.com/ibmtjbot/tjbot/tree/master/recipes/conversation)]
-После ознакомления с нашими примерами рецептов, мы рекомендуем вам взглянуть на [популярные рецепты] (featured) созданный членами нашего сообщества.
+(На английском языке)
 
-# Contribute to TJBot
+
+# Внесите свой вклад в проект TJBot
 TJBot - это проект с открытым исходным кодом, разработанный для того, чтобы с ним было весело и легко взаимодействовать с помощью [Watson](https://www.ibm.com/watson/products-services/). Мы будем рады видеть, что вы можете сделать с ним!
 
-Если вы хотите, чтобы ваш собственный рецепт был включен в наш список [featured recipe](featured), пожалуйста откройте issue [open an issue](../../issues) с ссылкой на ваш репозиторий и демо видео.
+Если вы хотите, чтобы ваш собственный рецепт был включен в наш список [рецептов](featured), пожалуйста откройте issue [open an issue](../../issues) с ссылкой на ваш репозиторий и демо видео.
 
-# About TJBot
-[TJBot](http://ibm.biz/mytjbot) был назван в честь Thomas J. Watson, первого председателя и генерального директора IBM. TJBot был создан [Maryam Ashoori](https://github.com/maryamashoori) в подразделении IBM Research в качестве эксперимента, чтобы найти лучшие практики в разработке и реализации когнитивных объектов. Он родился 9 ноября 2016 года через [этот блог post](https://www.ibm.com/blogs/research/2016/11/calling-makers-meet-tj-bot/).
+# Подробнее о TJBot
+[TJBot](http://ibm.biz/mytjbot) был назван в честь Thomas J. Watson, первого председателя и генерального директора IBM. TJBot был создан [Maryam Ashoori](https://github.com/maryamashoori) в подразделении IBM Research в качестве эксперимента, чтобы найти лучшие практики в разработке и реализации когнитивных объектов. Он родился 9 ноября 2016 года через [этот блог](https://www.ibm.com/blogs/research/2016/11/calling-makers-meet-tj-bot/).
 
-# License
-This project uses the [Apache License Version 2.0](LICENSE) software license.
+# Лицензия
+Этот проект использует [Apache License Version 2.0](LICENSE).
