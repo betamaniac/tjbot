@@ -1,7 +1,7 @@
 # IBM TJBot
 <img src="images/tjbot.jpg" width="85%">
 
-[IBM Watson Maker Kits](http://ibm.biz/mytjbot) - это коллекция из DIY open source шаблонов для создания различных устройств с помощью [Watson](https://www.ibm.com/watson/products-services/) в веселой и простой форме. [IBM TJBot](http://ibm.biz/mytjbot) это первый комплект в этой коллекции. Вы можете сделать 3D печать тела робота, а затем использовать один из наших рецептов[рецептов](recipes) чтобы оживить его!
+[IBM Watson Maker Kits](http://ibm.biz/mytjbot) - это коллекция из DIY open source шаблонов для создания различных устройств с помощью [Watson](https://www.ibm.com/watson/products-services/) в веселой и простой форме. [IBM TJBot](http://ibm.biz/mytjbot) это первый комплект в этой коллекции. Вы можете сделать 3D печать тела робота, а затем использовать один из наших [рецептов](recipes) чтобы оживить его!
 
 Кроме того, вы можете раскрыть свой творческий потенциал и создать новые рецепты, которые оживят TJBot, используя любой из доступных сервисов [Watson](https://www.ibm.com/watson/products-services/)!
 
@@ -10,7 +10,7 @@
 # Build TJBot
 Вы можете создать свой собственный TJBot несколькими способами.
 
-- **3d печать или лазерная резка**. Если у вас есть доступ к принтеру 3D или лазерной резке, то вы можете напечатать TJBot самостоятельно. Начните с скачивания дизайн файлов [design files](https://ibmtjbot.github.io/#gettj) и запускайте ваш принтер/резак.
+- **3d печать или лазерная резка**. Если у вас есть доступ к принтеру 3D или лазерной резке, то вы можете напечатать TJBot самостоятельно. Начните с скачивания [файлов дизайна](https://ibmtjbot.github.io/#gettj) и загружайте в ваш принтер/резак.
 - **TJBot Full Kit**. Вы можете заказать полный комплект TJBot с картоном для лазерной резки и всей электроникой от [Sparkfun](https://www.sparkfun.com/products/14123), [Adafruit](https://www.adafruit.com/product/3462), или [Robotkingdom](http://shop.robotkingdom.com.tw/raspberry-pi/tjbot01.html).
 - **TJBot Cardboard Kit**. Вы можете купить нарезанный лазером картон робота TJBot в [Texas Laser Creations](http://texlaser.com).
 
